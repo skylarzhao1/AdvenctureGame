@@ -1,0 +1,19 @@
+These configuration lines may exceed 100 characters.
+Each line starting with a coordinate (row,column) gives the field/attribute values for that location in the map.
+The first set of integer coordinates at the beginning of a line in this file (e.g., 8,6/size/...) is the overall
+size (number of rows and number of columns) of the map to be used to create the internal map array.
+The line with the 'start' name (e.g., 0,4/start/...) is the starting location of the player.
+
+Coordinates/Name/Enter Text/Enter Result/Nearby Text/
+8,6/size/This is the size of the maze///
+5,2/Vampire/You've been eaten by the ghost./lose/give off bloody smell/
+4,4/cavity/You fell into a cavity/lose/you feel a draft/
+4,3/cavity/You fell into a cavity/lose/you feel a draft/
+3,4/map/The map gives a clue and guides you somewhere.../randomMove/you hear a rustling/
+2,2/key/You've found the key and get out of Maze!/win/you feel the sunshine /
+0,4/start/Welcome to the Maze Adventure! Find the key without getting eaten by the Vampire. May you return safely!///
+6,0/Vampire/You've been eaten by the ghost./lose/give off bloody smell/
+6,1/map/The map gives a clue and guides you somewhere.../randomMove/you hear a rustling/
+6,2/map/The map gives a clue and guides you somewhere.../randomMove/you hear a rustling/
+6,3/map/The map gives a clue and guides you somewhere.../randomMove/you hear a rustling/
+6,4/map/The map gives a clue and guides you somewhere.../randomMove/you hear a rustling/
