@@ -1,4 +1,4 @@
-# AdvenctureGame
+# AdventureGame
 
 The game is about escaping the maze. The player will encounter the cavity, map, key, vampire in the maze adventure.
 For example, if the player encounters the cavity, the player will lose, and the game is over.
